@@ -1,1 +1,1 @@
-# gaussian-RAM
+# Gaussian RAM
