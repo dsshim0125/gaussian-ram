@@ -12,7 +12,7 @@ Previous studies on image classification have been mainly focused on the perform
 <img src="https://github.com/dsshim0125/gaussian-ram/blob/master/fig.png" width="600"> 
 </p>
 
-### Requirements
+## Requirements
 - Python3
 - PyTorch (> 1.0)
 - torchvision (> 0.2)
