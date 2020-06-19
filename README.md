@@ -24,3 +24,8 @@ Cluttered MNIST([download](https://drive.google.com/file/d/1nMO5XIFmjyPnJjfvBeFp
 ```angular2html
 python train.py --dataset --batch_size --lr --epochs --random_seed --log_interval --resume
 ```
+
+## Inference
+```angular2html
+python inference.py --dataset --random_seed --fast
+```
