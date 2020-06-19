@@ -120,15 +120,6 @@ class GDRAM(nn.Module):
 
         return  action_logits, locations, location_log_probs, baselines, weights
 
-if __name__ == '__main__':
-    model = DRAM(uniform=True, cpu=False).cuda()
-    model.eval()
-    input = torch.ones((1,3,32,32)).cuda()
-
-    action_logits, locations, location_log, baseline, weights = model(input)
-
-    print(action_logits, locations.shape, location_log.shape, baseline.shape, weights.shape)
-
 
 
 
