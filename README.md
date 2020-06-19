@@ -17,3 +17,5 @@ Previous studies on image classification have been mainly focused on the perform
 - PyTorch (> 1.0)
 - torchvision (> 0.2)
 - NumPy
+
+## Training
