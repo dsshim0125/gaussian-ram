@@ -8,11 +8,10 @@ from PIL import Image
 import pandas as pd
 
 class MnistClutteredDataset(Dataset):
-    """Face Landmarks dataset."""
 
-    def __init__(self, type, transform=None):
+    def __init__(self, data_path, type, transform=None):
 
-        self.root_dir = '/media/dsshim/mnist_distortion/' + type + '/path.txt'
+        self.root_dir = data_path +'/'+ type + '/path.txt'
         self.transform = transform
         self.path = pd.read_csv(self.root_dir, sep=' ', header=None)
 
