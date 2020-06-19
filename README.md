@@ -12,6 +12,8 @@ Previous studies on image classification have been mainly focused on the perform
 <img src="https://github.com/dsshim0125/gaussian-ram/blob/master/fig.png" width="600"> 
 </p>
 
+## Dataset
+Cluttered MNIST ([download](https://drive.google.com/file/d/1nMO5XIFmjyPnJjfvBeFpujeuZ3Qk7vhd/view?usp=sharing)), CIFAR10 and CIFAR100 are used to train and evaluate. All the images are resized to 128 in both height and weight for generating high scale image.
 ## Requirements
 - Python3
 - PyTorch (> 1.0)
@@ -20,5 +22,5 @@ Previous studies on image classification have been mainly focused on the perform
 
 ## Training
 ```angular2html
-python train.py --data_path 
+python train.py --dataset --batch_size --lr --epochs --random_seed --log_interval --resume
 ```
