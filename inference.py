@@ -19,6 +19,7 @@ def str2bool(v):
 
 parser = argparse.ArgumentParser(description='Inference')
 
+parser.add_argument('--data_path', type=str, default='data')
 parser.add_argument('--dataset', type=str, default='mnist')
 parser.add_argument('--device', type=str, default='cuda')
 parser.add_argument('--fast', type=str2bool, default='False')
@@ -43,20 +44,20 @@ if args.dataset == 'cifar10':
 
     transform = transforms.Compose([transforms.Resize(img_size),transforms.ToTensor()])
 
-    test_loader = torch.utils.data.DataLoader(datasets.CIFAR10('data', train=False,\
+    test_loader = torch.utils.data.DataLoader(datasets.CIFAR10(args.data_path, train=False,\
                                                                transform=transform),batch_size=batch_size, shuffle=False, **kwargs)
 
 elif args.dataset == 'cifar100':
 
     transform = transforms.Compose([transforms.Resize(img_size),transforms.ToTensor()])
 
-    test_loader = torch.utils.data.DataLoader(datasets.CIFAR100('data', train=False,\
+    test_loader = torch.utils.data.DataLoader(datasets.CIFAR100(args.data_path, train=False,\
                                                                transform=transform),batch_size=batch_size, shuffle=False, **kwargs)
 
 elif args.dataset == 'mnist':
 
     transform = transforms.Compose([transforms.Resize(img_size),transforms.Grayscale(3), transforms.ToTensor()])
-    test_set = MnistClutteredDataset('/media/dsshim/mnist_distortion', type='test',transform=transform)
+    test_set = MnistClutteredDataset(args.data_path, type='test',transform=transform)
 
     test_loader = torch.utils.data.DataLoader(
         test_set, batch_size=batch_size, shuffle=False, **kwargs
