@@ -22,6 +22,7 @@ def str2bool(v):
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
 parser = argparse.ArgumentParser(description='Gaussian-RAM')
+parser.add_argument('--data_path', type=str, default='data')
 parser.add_argument('--device', type=str, default='cuda', help='cuda or cpu')
 parser.add_argument('--batch_size', type=int, default = 128)
 parser.add_argument('--dataset', type=str, default='mnist')
@@ -51,7 +52,7 @@ if args.dataset == 'cifar10':
     transform = transforms.Compose([transforms.Resize(img_size),transforms.ToTensor()])
     # training set : validation set : test set = 50000 : 10000 : 10000
 
-    train_set = datasets.CIFAR10('data',train=True, download=True, transform=transform)
+    train_set = datasets.CIFAR10(args.data_path,train=True, download=True, transform=transform)
     indices = list(range(len(train_set)))
     valid_size = 10000
     train_size = len(train_set) - valid_size
@@ -66,14 +67,14 @@ if args.dataset == 'cifar10':
     valid_loader = torch.utils.data.DataLoader(
         train_set, batch_size=args.batch_size, sampler=valid_sampler, **kwargs)
 
-    test_loader = torch.utils.data.DataLoader(datasets.CIFAR10('data', train=False,\
+    test_loader = torch.utils.data.DataLoader(datasets.CIFAR10(args.data_path, train=False,\
                                                                transform=transform),batch_size=args.batch_size, shuffle=False, **kwargs)
 if args.dataset == 'cifar100':
 
     transform = transforms.Compose([transforms.Resize(img_size),transforms.ToTensor()])
     # training set : validation set : test set = 50000 : 10000 : 10000
 
-    train_set = datasets.CIFAR100('data',train=True, download=True, transform=transform)
+    train_set = datasets.CIFAR100(args.data_path,train=True, download=True, transform=transform)
     indices = list(range(len(train_set)))
 
     valid_size = 10000
@@ -89,16 +90,16 @@ if args.dataset == 'cifar100':
     valid_loader = torch.utils.data.DataLoader(
         train_set, batch_size=args.batch_size, sampler=valid_sampler, **kwargs)
 
-    test_loader = torch.utils.data.DataLoader(datasets.CIFAR100('data', train=False,\
+    test_loader = torch.utils.data.DataLoader(datasets.CIFAR100(args.data_path, train=False,\
                                                                transform=transform),batch_size=args.batch_size, shuffle=False, **kwargs)
 
 elif args.dataset == 'mnist':
 
     transform = transforms.Compose([transforms.Resize(img_size),transforms.Grayscale(3), transforms.ToTensor()])
 
-    train_set = MnistClutteredDataset(type='train', transform=transform)
-    valid_set = MnistClutteredDataset(type='val', transform= transform)
-    test_set = MnistClutteredDataset(type='test',transform=transform)
+    train_set = MnistClutteredDataset(args.data_path, type='train', transform=transform)
+    valid_set = MnistClutteredDataset(args.data_path, type='val', transform= transform)
+    test_set = MnistClutteredDataset(args.data_path, type='test',transform=transform)
 
     train_size = len(train_set)
     valid_size = len(valid_set)
