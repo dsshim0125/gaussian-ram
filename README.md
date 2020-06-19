@@ -19,3 +19,6 @@ Previous studies on image classification have been mainly focused on the perform
 - NumPy
 
 ## Training
+```angular2html
+python train.py --data_path 
+```
