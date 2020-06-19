@@ -4,7 +4,7 @@
 
 Official PyTorch implementation of Gaussian-RAM
 
-![Figure](fig.png){: width="300" height="300"){: .center}
+![Figure](fig.png)(: width="300" height="300")
 
 ### Requirements
 - Python3
