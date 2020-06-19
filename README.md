@@ -4,7 +4,7 @@
 
 Official PyTorch implementation of Gaussian-RAM
 
-<img width="600" alt="teaser" src="./fig.png">
+![Figure](fig.png)
 
 ### Requirements
 - Python3
