@@ -7,7 +7,7 @@ import torch.utils.data
 from torchvision import datasets, transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 import torchvision
-from model import DRAM
+from model import GDRAM
 from utils import draw_locations
 from dataloader import MnistClutteredDataset
 
