@@ -31,6 +31,8 @@ parser.add_argument('--random_seed', type=int, default=1)
 parser.add_argument('--epochs', type=int, default=200)
 parser.add_argument('--log_interval', type=int, default=500)
 parser.add_argument('--resume', type=str2bool, default='False')
+parser.add_argument('--checkpoint', type=str, default=None)
+
 args = parser.parse_args()
 
 assert (args.dataset=='mnist' or args.dataset=='cifar10') or args.dataset=='cifar100', 'please use dataset in mnist, cifar10 or cifar100'
