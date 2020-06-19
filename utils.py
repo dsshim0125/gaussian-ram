@@ -42,7 +42,7 @@ def get_glimpse(x, l, output_size, k, device):
     return output.detach()
 
 
-def draw_locations(image, locations, weights=None, size=8, epoch=0, save_path='cifar10_rnn_adaptive_12'):
+def draw_locations(image, locations, weights=None, size=8, epoch=0, save_path='results'):
     image = np.transpose(image, (1,2,0))
     weights = weights.detach().cpu().numpy()
 
