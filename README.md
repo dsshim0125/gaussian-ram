@@ -18,7 +18,7 @@ Cluttered MNIST([download](https://drive.google.com/file/d/1nMO5XIFmjyPnJjfvBeFp
 - Python3
 - PyTorch (> 1.0)
 - torchvision (> 0.2)
-- Pillow
+- PIL
 - NumPy
 
 ## Training
