@@ -30,3 +30,6 @@ python train.py --data_path --dataset --batch_size --lr --epochs --random_seed -
 ```angular2html
 python inference.py --data_path --dataset --random_seed --fast
 ```
+
+## Acknowledgement
+This work was supported by Institute of Information & Communications Technology Planning & Evaluation(IITP) grant funded by the Korea government (MSIT) (No. 2019-0-01367, Infant-Mimic Neurocognitive Developmental Machine Learning from Interaction Experience with Real World (BabyMind))
