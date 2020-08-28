@@ -1,6 +1,6 @@
 ## Gaussian RAM: Lightweight Image Classification via Stochastic Retina Inspired Glimpse and Reinforcement Learning
 
-### IEEE ICCAS 2020 Accepted
+### ICROS ICCAS 2020 Accepted
 
 Official PyTorch implementation of Gaussian-RAM
 
