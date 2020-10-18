@@ -6,7 +6,7 @@ Official PyTorch implementation of Gaussian-RAM
 
 
 ## Abstract
-Previous studies on image classification have been mainly focused on the performance of the networks, not onreal-time operation or model compression.  We propose a Gaussian Deep Recurrent visual Attention Model (GDRAM)- a reinforcement learning based lightweight deep neural network for large scale image classification that outperformsthe conventional CNN (Convolutional Neural Network) which uses the entire image as input.  Highly inspired by thebiological visual recognition process, our model mimics the stochastic location of the retina with Gaussian distribution. We evaluate the model on Large cluttered MNIST, Large CIFAR-10 and Large CIFAR-100 datasets which are resized to128 in both width and height.
+Previous studies on image classification have been mainly focused on the performance of the networks, not on real-time operation or model compression.  We propose a Gaussian Deep Recurrent visual Attention Model (GDRAM)- a reinforcement learning based lightweight deep neural network for large scale image classification that outperformsthe conventional CNN (Convolutional Neural Network) which uses the entire image as input.  Highly inspired by the biological visual recognition process, our model mimics the stochastic location of the retina with Gaussian distribution. We evaluate the model on Large cluttered MNIST, Large CIFAR-10 and Large CIFAR-100 datasets which are resized to 128 in both width and height.
 
 <p align = "center">
 <img src="https://github.com/dsshim0125/gaussian-ram/blob/master/fig.png" width="600"> 
