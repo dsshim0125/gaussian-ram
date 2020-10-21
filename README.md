@@ -22,12 +22,12 @@ Cluttered MNIST([download](https://drive.google.com/file/d/1nMO5XIFmjyPnJjfvBeFp
 - NumPy
 
 ## Training
-```angular2html
+```bash
 python train.py --data_path --dataset --batch_size --lr --epochs --random_seed --log_interval --resume --checkpoint
 ```
 
 ## Inference
-```angular2html
+```bash
 python inference.py --data_path --dataset --random_seed --fast
 ```
 
