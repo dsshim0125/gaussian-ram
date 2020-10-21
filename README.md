@@ -33,3 +33,14 @@ python inference.py --data_path --dataset --random_seed --fast
 
 ## Acknowledgement
 This work was supported by Institute of Information & Communications Technology Planning & Evaluation(IITP) grant funded by the Korea government (MSIT) (No. 2019-0-01367, Infant-Mimic Neurocognitive Developmental Machine Learning from Interaction Experience with Real World (BabyMind))
+
+## References
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
+## References
+<a id="2">[2]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
