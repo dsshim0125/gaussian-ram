@@ -42,7 +42,8 @@ This work was supported by Institute of Information & Communications Technology 
 [5]    G. Huang,  Z. Liu,  L. Van Der Maaten,  and K. Q.Weinberger, “Densely connected convolutional net-works,” inProceedings of the IEEE conference oncomputer vision and pattern recognition, 2017, pp.4700–4708.<br />
 [6]    Y. LeCun, “The mnist database of handwritten dig-its,”http://yann. lecun. com/exdb/mnist/.<br />
 [7]    O.   Russakovsky,   J.   Deng,   H.   Su,   J.   Krause,S.   Satheesh,   S.   Ma,   Z.   Huang,   A.   Karpathy,A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei,“ImageNet  Large  Scale  Visual  Recognition  Chal-lenge,”International Journal of Computer Vision(IJCV), vol. 115, no. 3, pp. 211–252, 2015.<br />
-[8]    V.  Mnih,  N.  Heess,  A.  Graveset al.,  “Recurrentmodels of visual attention,” inAdvances in neuralinformation processing systems,  2014,  pp.  2204–2212.[9]    J.  Ba,   V.  Mnih,   and  K.  Kavukcuoglu,   “Multi-ple object recognition with visual attention,”arXivpreprint arXiv:1412.7755, 2014.<br />
+[8]    V.  Mnih,  N.  Heess,  A.  Graveset al.,  “Recurrentmodels of visual attention,” inAdvances in neuralinformation processing systems,  2014,  pp.  2204–2212.<br />
+[9]    J.  Ba,   V.  Mnih,   and  K.  Kavukcuoglu,   “Multi-ple object recognition with visual attention,”arXivpreprint arXiv:1412.7755, 2014.<br />
 [10]  Q.  Liu,  R.  Hang,  H.  Song,  and  Z.  Li,  “Learn-ing  multi-scale  deep  features  for  high-resolutionsatellite    image    classification,”arXiv  preprintarXiv:1611.03591, 2016.<br />
 [11]  M. Iftenea, Q. Liub, and Y. Wangc, “Very high res-olution images classification by fusing deep convo-lutional neural networks.”<br />
 [12]  A.  Ablavatski,  S.  Lu,  and  J.  Cai,  “Enriched  deeprecurrent visual attention model for multiple objectrecognition,”  in2017 IEEE Winter Conference onApplications of Computer Vision (WACV).IEEE,2017, pp. 971–978.<br />
