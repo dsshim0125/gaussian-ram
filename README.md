@@ -35,7 +35,7 @@ python inference.py --data_path --dataset --random_seed --fast
 This work was supported by Institute of Information & Communications Technology Planning & Evaluation(IITP) grant funded by the Korea government (MSIT) (No. 2019-0-01367, Infant-Mimic Neurocognitive Developmental Machine Learning from Interaction Experience with Real World (BabyMind))
 
 ## References
-[1]    Y.  Lecun,  L.  Bottou,  Y.  Bengio,  and  P.  Haffner,“Gradient-based   learning   applied   to   documentrecognition,” inProceedings of the IEEE, 1998, pp.2278–2324.
+[1]    Y.  Lecun,  L.  Bottou,  Y.  Bengio,  and  P.  Haffner,“Gradient-based   learning   applied   to   documentrecognition,” inProceedings of the IEEE, 1998, pp.2278–2324.<br />
 [2]    K.  Simonyan  and  A.  Zisserman,  “Very  deep  con-volutional networks for large-scale image recogni-tion,”arXiv preprint arXiv:1409.1556, 2014.
 [3]    C. Szegedy,  W. Liu,  Y. Jia,  P. Sermanet,  S. Reed,D. Anguelov, D. Erhan, V. Vanhoucke, and A. Ra-binovich, “Going deeper with convolutions,” inPro-ceedings of the IEEE conference on computer visionand pattern recognition, 2015, pp. 1–9.
 [4]    K. He, X. Zhang, S. Ren, and J. Sun, “Deep resid-ual learning for image recognition,” inProceedingsof the IEEE conference on computer vision and pat-tern recognition, 2016, pp. 770–778.
