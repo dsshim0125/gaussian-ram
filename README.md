@@ -2,7 +2,7 @@
 
 ### ICROS ICCAS 2020 Student Best Paper Finalist
 
-This repo is an official PyTorch implementation of Gaussian-RAM [https://arxiv.org/abs/2011.06190](https://arxiv.org/abs/2011.06190).
+This repo is an official PyTorch implementation of Gaussian-RAM ([https://arxiv.org/abs/2011.06190](https://arxiv.org/abs/2011.06190)).
 
 
 ## Abstract
