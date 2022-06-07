@@ -2,7 +2,7 @@
 
 ### ICROS ICCAS 2020 Student Best Paper Finalist
 
-This repo is an official PyTorch implementation of "Gaussian RAM: Lightweight Image Classification via Stochastic Retina Inspired Glimpse and Reinforcement Learning" ([paper](https://arxiv.org/abs/2011.06190)).
+This repo is an official PyTorch implementation of "Gaussian RAM: Lightweight Image Classification via Stochastic Retina Inspired Glimpse and Reinforcement Learning". [[paper](https://arxiv.org/abs/2011.06190)]
 
 
 ## Abstract
